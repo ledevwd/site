@@ -28,6 +28,7 @@ html, body {
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-position: 50% 0;
+    background-size: cover;
 }
 
 #hamburger-menu, .btn-close {
@@ -764,30 +765,8 @@ h3 {
 }
 
 @media screen and (max-width: 540px) {
-    #intro-text h1 {
-        font-size: 2rem;
-    }
-
-    .txt-type {font-size: 1rem;}
-}
-
-@media screen and (max-width: 540px) {
     html {
-        font-size: 13px;
-    }
-}
-
-@media screen and (max-width: 440px) {
-    #intro-text {
-        padding: 0 10px;
-    }
-
-    #intro-text h1 {
-        font-size: 1.8rem;
-    }
-
-    .btn-contact {
-        width: 100%;
+        font-size: 14px;
     }
 }
 
